@@ -19,10 +19,10 @@ docker exec -it liquids-python-1 python
 from logic import db
 ```
 ```
-from data import Drink
+from data import Liquid
 ```
 ```
-item = Drink(id=None, name="Liqtest", description="Test description")
+item = Liquid(id=None, name="Liqtest", description="Test description")
 ```
 ```
 db.session.add(item)
