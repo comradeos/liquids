@@ -1,6 +1,6 @@
 FROM python:alpine3.16
 WORKDIR /app
-COPY require.txt .
-RUN pip install -r require.txt
+COPY required.txt .
+RUN pip install -r required.txt
 ENTRYPOINT [ "python" ]
 CMD [ "main.py" ]
